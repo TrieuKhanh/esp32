@@ -1,6 +1,6 @@
 const int Analog_channel_pin = 34;
 int ADC_VALUE = 0;
-int voltage_value = 0;
+double voltage_value = 0;
 void setup() {
   Serial.begin(115200);
 }
